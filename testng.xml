@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+<groups>
+   		<run>
+   			<include name="RegressionTest"/>
+   		</run>
+   </groups>
+  <test name="Test">
+    <classes>
+      <class name="Organization.ValidateCSARadioBtn"/>
+      <class name="Organization.ValidateNOCkeckBox"/>
+      <class name="Organization.createOrgWithNotifyOwner"/>
+      <class name="Organization.createOrgWithRating"/>
+      <class name="Organization.ValidateRatingDropdown"/>
+      <class name="Organization.ValidateCBARadioBtn"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- TestSuite -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Organization.ValidateCSARadioBtn">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeSuite"/>
+          <include name="ValidateCopyShippingAddressRadiobutton"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateCSARadioBtn -->
+      <class name="Organization.ValidateCBARadioBtn">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateCBARadioBtn -->
+      <class name="Organization.createOrgWithRating">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.createOrgWithRating -->
+      <class name="Organization.createOrgWithNotifyOwner">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.createOrgWithNotifyOwner -->
+      <class name="Organization.ValidateNOCkeckBox">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="NotifyOwnerChechboxvalidation"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateNOCkeckBox -->
+      <class name="Organization.ValidateRatingDropdown">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateRatingDropdown -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="BROWSER" value="chrome"/>
+  <test name="Test-Firefox-Runner(failed)" parallel="tests">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="Organization.ValidateCBARadioBtn">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateCBARadioBtn -->
+      <class name="Organization.createOrgWithRating">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.createOrgWithRating -->
+      <class name="Organization.ValidateRatingDropdown">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateRatingDropdown -->
+      <class name="Organization.ValidateCSARadioBtn">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateCSARadioBtn -->
+      <class name="Organization.createOrgWithNotifyOwner">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="createWithNotifyOwner"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.createOrgWithNotifyOwner -->
+      <class name="Organization.ValidateNOCkeckBox">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateNOCkeckBox -->
+    </classes>
+  </test> <!-- Test-Firefox-Runner(failed) -->
+  <test name="Test-Chrome-Runner(failed)" parallel="tests">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="Organization.ValidateCBARadioBtn">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateCBARadioBtn -->
+      <class name="Organization.createOrgWithRating">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.createOrgWithRating -->
+      <class name="Organization.ValidateRatingDropdown">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateRatingDropdown -->
+      <class name="Organization.ValidateCSARadioBtn">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateCSARadioBtn -->
+      <class name="Organization.createOrgWithNotifyOwner">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="createWithNotifyOwner"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.createOrgWithNotifyOwner -->
+      <class name="Organization.ValidateNOCkeckBox">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configAfterClass"/>
+          <include name="configAfterMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- Organization.ValidateNOCkeckBox -->
+    </classes>
+  </test> <!-- Test-Chrome-Runner(failed) -->
+</suite> <!-- Failed suite [Suite] -->

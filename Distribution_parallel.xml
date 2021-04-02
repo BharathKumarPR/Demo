@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests" >
+
+  <test name="Test-Runner 1">
+    <classes>
+      <class name="Organization.ValidateCSARadioBtn"/>
+      <class name="Organization.ValidateRatingDropdown"/>
+      <class name="Organization.ValidateNOCkeckBox"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test-Runner 2">
+    <classes>
+      <class name="Organization.ValidateCBARadioBtn"/>
+      <class name="Organization.createOrgWithNotifyOwner"/>
+      <class name="Organization.createOrgWithRating"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
